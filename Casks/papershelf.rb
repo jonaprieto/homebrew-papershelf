@@ -7,6 +7,8 @@ cask "papershelf" do
   desc "macOS PDF reader and research library"
   homepage "https://jonaprieto.github.io/papershelf/"
 
+  depends_on macos: :sonoma
+
   app "PaperShelf.app"
 
   caveats <<~EOS
